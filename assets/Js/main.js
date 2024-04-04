@@ -35,12 +35,12 @@ window.onscroll = () => {
 
 
 /*form validation*/
-// const form= document.getElementById('form')
-// const message=document.getElementById('textarea')
-// const sendemail=(e) =>{
-//     e.preventDefault()
-// }
-// form.addEventListener(submit,sendemail)
+ const form= document.getElementById('form')
+  const message=document.getElementById('textarea')
+    const sendemail=(e) =>{
+    e.preventDefault()
+}
+form.addEventListener(submit,sendemail)
  
 /*sticky navbar*/
 let header = document.querySelector('header');
@@ -65,7 +65,7 @@ navbar.classList.remove('active');
     strings: [
       '3rd year software student',
       ' Junior UI/UX designer',
-      '2nd year management student'
+      '2nd year  in management'
     ],
     typeSpeed: 70,
     backSpeed: 70,  // This property is misspelled, should be backSpeed

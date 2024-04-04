@@ -16,7 +16,7 @@
     --bg-color:#191f36;
     --snd-bg-color:#262840;
     --text-color:#fff;
-    --main-color:#5982F4;
+    --main-color:blueviolet;
 }
 html{
     font-size: 62.5%;
@@ -87,9 +87,10 @@ span{
 }
 
 .home-img img{
-    width: 20vw;
+    width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
-     border-radius: 60% 63% 70% 62% / 49% 46% 55% 43%;
+    
+    
 }
 @keyframes floatImage{
     0%{
